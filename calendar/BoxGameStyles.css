@@ -1,0 +1,200 @@
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    min-height: 100vh;
+    background-image: url("snow-falling-background-with-pine-tree-free-vector.jpg");
+    overflow: hidden;
+    margin: 0px;
+    justify-content: space-evenly;
+    background-size: cover;
+}
+
+button{
+    all: unset;
+    color: white;
+    font-size: 18px;
+}
+
+.Instructions{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    opacity: 90%;
+    box-shadow: 10px 10px 12px rgb(131, 131, 131);
+
+}
+
+.instructiontitle{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: rgb(202, 202, 202);
+    border-radius: 7px 7px 0px 0px;
+    box-shadow: 3px 3px 5px rgb(86, 86, 86);
+}
+
+.maintext{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.Rewards{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    opacity: 90%;
+    box-shadow: 10px 10px 12px rgb(131, 131, 131);
+}
+
+.Rewardstitle{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: rgb(202, 202, 202);
+    border-radius: 7px 7px 0px 0px;
+    box-shadow: 3px 3px 5px rgb(86, 86, 86);
+}
+
+#maintextrewards{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 4px;
+}
+
+#output{
+    list-style-type: none;
+}
+
+.box-container {
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 7px 7px rgb(109, 0, 0), 5px 5px rgb(109, 0, 0), 3px 3px rgb(109, 0, 0);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    background-image: url(3d-image-christmas-celebration-theme-abstract-background_999340-12535.avif);
+
+}
+
+p {
+    color: black;
+}
+
+
+.box{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.internal-box{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: rgba(0, 0, 0, 0.537);
+    border-width: 2px;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+
+/*
+/.box-container-background{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: center;
+    flex-basis: 600px;
+}
+
+/.box{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    background-color: rgb(53, 53, 53);
+    box-shadow: 7px 7px 10px rgb(38, 38, 38), 5px 5px 10px rgb(40, 40, 40), 3px 3px rgb(50, 50, 50);
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px 5px 5px 5px;
+    align-items: center;
+}
+
+.internal-box{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 3px 3px darkred;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+
+
+.internal-box:hover{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+
+.internal-box:active{
+    padding-left: 1px;
+    padding-right: 2px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    box-shadow: none;
+}
+*/
