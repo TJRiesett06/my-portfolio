@@ -70,7 +70,7 @@ function onclick(button) {
                 }
                 else {
                     let li = document.createElement("li");
-                    li.innerHTML = "Group Drink!";
+                    li.innerHTML = "Group drink eggnog!";
                     document.getElementById("output").appendChild(li).style.listStyleType = "initial";
 
                     document.getElementById("maintextrewards").scrollTop = li.offsetHeight + li.offsetTop;
@@ -99,7 +99,7 @@ function onclick(button) {
                 if(r3 < 3){
 
                     let li = document.createElement("li");
-                    li.innerHTML = "Drink!";
+                    li.innerHTML = "Drink eggnog!";
                     document.getElementById("output").appendChild(li).style.listStyleType = "initial";
                     document.getElementById("output").appendChild(li).style.color = "red";
                     document.getElementById("maintextrewards").scrollTop = li.offsetHeight + li.offsetTop;
@@ -200,27 +200,3 @@ buttons.forEach(button => {
     });
 });
 
-
-/*
-    var randomnum = (Math.round(Math.random() * 24) + 1);
-    var r = document.getElementById("internal-box").addEventListener = randomnum;
-    document.getElementById("internal-box").innerHTML = randomnum;
-
-
-    const randoms = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25];
-
-    for(i = 0; i < randoms.length; i++){
-        const index = randoms.indexOf(i + 1);
-
-        if (randoms[i] == r){
-            randoms.splice(index, 1);
-        }
-    }
-
-    if (r == 2 || r == 13) {
-        document.getElementById("internal-box").style.backgroundColor = "red";
-    }
-
-    console.log(r);
-    console.log(randoms);
-    */
