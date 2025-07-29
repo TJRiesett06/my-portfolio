@@ -6,6 +6,8 @@ body {
   margin: 0;
   font-family: Roboto, Arial;
   height: 100vh;
+  overflow-x: hidden;
+  
 }
 
 p {
@@ -485,7 +487,7 @@ p {
   transition: 0.15s;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1000px){
   
 
   #project-examples{
@@ -511,11 +513,22 @@ p {
   }
 
   body{
-    width: 100vh;
+    width: 100vw;
   }
 
   #project-image-container {
     margin: 0;
   }
+
+  #contact-form-container {
+    width: 450px;
+    height: 550px;
+  }
+
+  #email-form {
+  height: 400px;
+  width: 350px;
+}
+
 
 }
